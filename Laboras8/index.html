@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css./styles.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
@@ -16,13 +16,16 @@
        <h2>Apie</h1>
 <h3> Laisvu laiku studijuoju VGTU</h3>
 <img src="images/as.JPG" alt="krabas">
+<section> 
        <h2> Aprašymas</h2>
 <h3> Esu Eimantas Samušis, kai netingiu mokausi VGTU, kartais net nueinu į paskaitas </h3>
+</section>
        <h2> Atlikti darbai</h3>
 <h3> Nurašyti visi egzaminai</h3>
        <h2> Paslaugos<h2>
+        <fieldset> <!-- daro lentele-->
         <audio controls ></audio>
-        <source src="audio/gong.mp3" type="audio/mpeg" > 
+        <source src="audio/gong.mp3" type="audio/mpeg"> 
       </video>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/sfN-qUTVFuk?si=vwkocOKSywkFMftn&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
@@ -30,6 +33,8 @@
         <video controls width="620" height="450" >
         <source src="video/video.mp4" type="video/mp4" > 
       </video>
-    <script src="index.js"></script>
+    </fieldset>
+        <button id="theme-toggle">Dark/Light Theme</button>
+        <script src="dark.js"></script>
   </body>
 </html>
